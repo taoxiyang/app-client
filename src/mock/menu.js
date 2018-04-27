@@ -10,14 +10,12 @@ let database = [
   },
   {
     id: '2',
-    bpid: '1',
     name: 'Users',
     icon: 'user',
     route: '/user',
   },
   {
     id: '7',
-    bpid: '1',
     name: 'Posts',
     icon: 'shopping-cart',
     route: '/post',
@@ -25,26 +23,22 @@ let database = [
   {
     id: '21',
     mpid: '-1',
-    bpid: '2',
     name: 'User Detail',
     route: '/user/:id',
   },
   {
     id: '3',
-    bpid: '1',
     name: 'Request',
     icon: 'api',
     route: '/request',
   },
   {
     id: '4',
-    bpid: '1',
     name: 'UI Element',
     icon: 'camera-o',
   },
   {
     id: '41',
-    bpid: '4',
     mpid: '4',
     name: 'IconFont',
     icon: 'heart-o',
@@ -60,7 +54,6 @@ let database = [
   // },
   {
     id: '43',
-    bpid: '4',
     mpid: '4',
     name: 'DropOption',
     icon: 'bars',
@@ -68,7 +61,6 @@ let database = [
   },
   {
     id: '44',
-    bpid: '4',
     mpid: '4',
     name: 'Search',
     icon: 'search',
@@ -92,13 +84,11 @@ let database = [
   // },
   {
     id: '5',
-    bpid: '1',
     name: 'Charts',
     icon: 'code-o',
   },
   {
     id: '51',
-    bpid: '5',
     mpid: '5',
     name: 'ECharts',
     icon: 'line-chart',
@@ -106,7 +96,6 @@ let database = [
   },
   {
     id: '52',
-    bpid: '5',
     mpid: '5',
     name: 'highCharts',
     icon: 'bar-chart',
@@ -114,7 +103,6 @@ let database = [
   },
   {
     id: '53',
-    bpid: '5',
     mpid: '5',
     name: 'Rechartst',
     icon: 'area-chart',
@@ -122,34 +110,29 @@ let database = [
   },
   {
     id: '6',
-    bpid: '1',
     name: 'Test Navigation',
     icon: 'setting',
   },
   {
     id: '61',
-    bpid: '6',
     mpid: '6',
     name: 'Test Navigation1',
     route: '/navigation/navigation1',
   },
   {
     id: '62',
-    bpid: '6',
     mpid: '6',
     name: 'Test Navigation2',
     route: '/navigation/navigation2',
   },
   {
     id: '621',
-    bpid: '62',
     mpid: '62',
     name: 'Test Navigation21',
     route: '/navigation/navigation2/navigation1',
   },
   {
     id: '622',
-    bpid: '62',
     mpid: '62',
     name: 'Test Navigation22',
     route: '/navigation/navigation2/navigation2',

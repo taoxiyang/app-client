@@ -68,7 +68,6 @@ export default {
       payload,
     }, { call, put, select }) {
       const data = yield call(query, payload)
-      debugger
       const { success, user } = data
       const { locationPathname } = yield select(_ => _.app)
       if (success && user) {

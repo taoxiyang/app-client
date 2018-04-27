@@ -26,11 +26,7 @@ const Bread = ({ menu, location }) => {
 
   let paramMap = {}
   if (!current) {
-    pathArray.push(menu[0] || {
-      id: 1,
-      icon: 'laptop',
-      name: 'Dashboard',
-    })
+    pathArray.push(menu[0])
     pathArray.push({
       id: 404,
       name: 'Not Found',
