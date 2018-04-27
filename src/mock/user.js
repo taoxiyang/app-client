@@ -108,7 +108,7 @@ module.exports = {
   },
 
   [`GET ${apiPrefix}/user/logout`] (req, res) {
-    res.clearCookie('token')
+    res.clearCookie('appToken')
     res.status(200).end()
   },
 

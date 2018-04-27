@@ -13,6 +13,8 @@ export default {
       const data = yield call(login, payload)
       const { locationQuery } = yield select(_ => _.app)
       if (data.success) {
+        const appToken = data.appToken
+        document.cookie = "appToken=" + appToken
         const { from } = locationQuery
         yield put({ type: 'app/query' })
         if (from && from !== '/login') {
@@ -21,7 +23,7 @@ export default {
           yield put(routerRedux.push('/dashboard'))
         }
       } else {
-        throw data
+        throw data.error
       }
     },
   },

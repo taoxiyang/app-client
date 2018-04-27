@@ -67,7 +67,9 @@ export default {
     * query ({
       payload,
     }, { call, put, select }) {
-      const { success, user } = yield call(query, payload)
+      const data = yield call(query, payload)
+      debugger
+      const { success, user } = data
       const { locationPathname } = yield select(_ => _.app)
       if (success && user) {
         const { list } = yield call(menusService.query)

@@ -19,6 +19,12 @@ export default {
       "changeOrigin": true,
       "pathRewrite": { "^/api/v1/weather": "/v3/weather" }
     },
+
+    "/api/v3": {
+      "target": "http://localhost:8090",
+      "changeOrigin": true,
+      "pathRewrite": { "^/api/v3": "" }
+    },
     // "/api/v2": {
     //   "target": "http://192.168.0.110",
     //   "changeOrigin": true,

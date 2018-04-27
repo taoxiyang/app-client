@@ -1,5 +1,9 @@
 const APIV1 = '/api/v1'
 const APIV2 = '/api/v2'
+const APIV3 = '/api/v3'
+
+const SERVER = 'http://localhost:8090'
+
 
 module.exports = {
   name: 'AntD Admin',
@@ -14,12 +18,12 @@ module.exports = {
   APIV1,
   APIV2,
   api: {
-    userLogin: `${APIV1}/user/login`,
+    userLogin: `${APIV3}/user/login`,
     userLogout: `${APIV1}/user/logout`,
     userInfo: `${APIV1}/userInfo`,
     users: `${APIV1}/users`,
     posts: `${APIV1}/posts`,
-    user: `${APIV1}/user/:id`,
+    user: `${APIV3}/user/:id`,
     dashboard: `${APIV1}/dashboard`,
     menus: `${APIV1}/menus`,
     weather: `${APIV1}/weather`,
