@@ -82,7 +82,7 @@ function Dashboard ({ dashboard, loading }) {
             <Completed data={completed} />
           </Card>
         </Col>
-        <Col lg={8} md={24}>
+        {/* <Col lg={8} md={24}>
           <Card bordered={false} {...bodyStyle}>
             <Browser data={browser} />
           </Card>
@@ -91,12 +91,12 @@ function Dashboard ({ dashboard, loading }) {
           <Card bordered={false} {...bodyStyle}>
             <Cpu {...cpu} />
           </Card>
-        </Col>
-        <Col lg={8} md={24}>
+        </Col> */}
+        {/* <Col lg={8} md={24}>
           <Card bordered={false} bodyStyle={{ ...bodyStyle.bodyStyle, padding: 0 }}>
             <User {...user} />
           </Card>
-        </Col>
+        </Col> */}
       </Row>
     </Page>
   )

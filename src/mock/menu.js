@@ -26,12 +26,12 @@ let database = [
     name: 'User Detail',
     route: '/user/:id',
   },
-  {
-    id: '3',
-    name: 'Request',
-    icon: 'api',
-    route: '/request',
-  },
+  // {
+  //   id: '3',
+  //   name: 'Request',
+  //   icon: 'api',
+  //   route: '/request',
+  // },
   {
     id: '4',
     name: 'UI Element',
@@ -108,35 +108,35 @@ let database = [
     icon: 'area-chart',
     route: '/chart/Recharts',
   },
-  {
-    id: '6',
-    name: 'Test Navigation',
-    icon: 'setting',
-  },
-  {
-    id: '61',
-    mpid: '6',
-    name: 'Test Navigation1',
-    route: '/navigation/navigation1',
-  },
-  {
-    id: '62',
-    mpid: '6',
-    name: 'Test Navigation2',
-    route: '/navigation/navigation2',
-  },
-  {
-    id: '621',
-    mpid: '62',
-    name: 'Test Navigation21',
-    route: '/navigation/navigation2/navigation1',
-  },
-  {
-    id: '622',
-    mpid: '62',
-    name: 'Test Navigation22',
-    route: '/navigation/navigation2/navigation2',
-  },
+  // {
+  //   id: '6',
+  //   name: 'Test Navigation',
+  //   icon: 'setting',
+  // },
+  // {
+  //   id: '61',
+  //   mpid: '6',
+  //   name: 'Test Navigation1',
+  //   route: '/navigation/navigation1',
+  // },
+  // {
+  //   id: '62',
+  //   mpid: '6',
+  //   name: 'Test Navigation2',
+  //   route: '/navigation/navigation2',
+  // },
+  // {
+  //   id: '621',
+  //   mpid: '62',
+  //   name: 'Test Navigation21',
+  //   route: '/navigation/navigation2/navigation1',
+  // },
+  // {
+  //   id: '622',
+  //   mpid: '62',
+  //   name: 'Test Navigation22',
+  //   route: '/navigation/navigation2/navigation2',
+  // },
 ]
 
 module.exports = {
